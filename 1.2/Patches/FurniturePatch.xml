@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table1x2c"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Table1x2</li>
+							<li>Things/Building/Furniture/AF_Table1x2_Alternate</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Table1x2</li>
+						<li>Things/Building/Furniture/AF_Table1x2_Alternate</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "TableStonecutter"]/comps</xpath>
+		
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableStonecutter</li>
+						<li>Things/Building/Production/AF_TableStonecutter_Alternate</li>
+					</randomGraphics>
+				</li>
+			</value>
+		
+	</Operation>
+
+
+
+
+
+</Patch>
