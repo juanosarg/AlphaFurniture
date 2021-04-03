@@ -14,6 +14,9 @@
 						<randomGraphics>
 							<li>Things/Building/Furniture/Table1x2</li>
 							<li>Things/Building/Furniture/AF_Table1x2_Alternate</li>
+							<li>Things/Building/Furniture/AF_Table1x2_AlternateDrawers</li>
+							<li>Things/Building/Furniture/AF_Table1x2_AlternateRound</li>
+							<li>Things/Building/Furniture/AF_Table1x2_AlternateThreeParts</li>
 						</randomGraphics>
 					</li>
 				</comps>
@@ -26,6 +29,9 @@
 					<randomGraphics>
 						<li>Things/Building/Furniture/Table1x2</li>
 						<li>Things/Building/Furniture/AF_Table1x2_Alternate</li>
+						<li>Things/Building/Furniture/AF_Table1x2_AlternateDrawers</li>
+						<li>Things/Building/Furniture/AF_Table1x2_AlternateRound</li>
+						<li>Things/Building/Furniture/AF_Table1x2_AlternateThreeParts</li>
 					</randomGraphics>
 				</li>
 			</value>
