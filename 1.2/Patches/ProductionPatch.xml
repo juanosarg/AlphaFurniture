@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/Crematorium</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumAssymetrical</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
+							
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/Crematorium</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumAssymetrical</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "SunLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SunLamp"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/LampSun</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Grill</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Hexagonal</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
+
+							
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SunLamp"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/LampSun</li>
+						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Grill</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Hexagonal</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	
+</Patch>
