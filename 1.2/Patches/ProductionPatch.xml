@@ -73,6 +73,80 @@
 		</match>
 	</Operation>
 	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/ElectricSmelter</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterChemfuel</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterCoil</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
+
+							
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/ElectricSmelter</li>
+						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterChemfuel</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterCoil</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "FabricationBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FabricationBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/FabricationBench</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchComputer</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
+
+							
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FabricationBench"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/FabricationBench</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchComputer</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
 	
 	
 </Patch>
