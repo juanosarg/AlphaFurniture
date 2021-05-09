@@ -343,4 +343,85 @@
 			</value>
 		</match>
 	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Column"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Column"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Column</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnPlain</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRound</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRoundWithLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnSquares</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnTwoLines</li>
+
+					
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Column"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Column</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnPlain</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRound</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRoundWithLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnSquares</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnTwoLines</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/LampStanding</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingBox</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingCone</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNarrowPost</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+
+
+
+					
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/LampStanding</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingBox</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingCone</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNarrowPost</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
 </Patch>
