@@ -1,5 +1,5 @@
 <ModMetaData>
-	<name>Alpha Furniture</name>
+	<name>Vanilla Textures Expanded - Furniture Variations</name>
 	<author>Sarg Bjornson</author>
 	<supportedVersions>
     
@@ -18,7 +18,7 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<packageId>sarg.alphafurniture</packageId>
+	<packageId>VanillaExpanded.VTEXFurnitureVariations</packageId>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
