@@ -233,6 +233,8 @@
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryAlternate</li>
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryDouble</li>
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
+							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
+
 						</randomGraphics>
 					</li>
 				</comps>
@@ -247,6 +249,7 @@
 						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryAlternate</li>
 						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryDouble</li>
 						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
+						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
 					</randomGraphics>
 				</li>
 			</value>

@@ -1,5 +1,5 @@
 <ModMetaData>
-	<name>Vanilla Textures Expanded - Furniture Variations</name>
+	<name>Vanilla Textures Expanded - Variations</name>
 	<author>Sarg Bjornson</author>
 	<supportedVersions>
     
@@ -18,7 +18,7 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<packageId>VanillaExpanded.VTEXFurnitureVariations</packageId>
+	<packageId>VanillaExpanded.VTEXVariations</packageId>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
@@ -26,5 +26,10 @@
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	
 	</loadAfter>
-	<description>Rawr</description>
+	<description>Vanilla Textures Expanded - Variations is a standalone release in the Vanilla Textures Expanded series, aiming at providing a LOT of visual variety to your vanilla bases.
+
+So, what does it do? Basically, it provides building graphics variations for the majority of vanilla’s buildings. This means every time you build a chair, the chair will have a randomized graphics. Not only that, but you can also swap the graphic of the building on command, allowing you to mix and match styles to properly decorate your base.
+
+The mod includes more than 150 new random building graphics for 35 vanilla buildings.
+</description>
 </ModMetaData>
