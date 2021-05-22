@@ -107,7 +107,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps</xpath>
+			<xpath>/Defs/ThingDef[defName = "Table2x4c"]/comps</xpath>
 			<value>
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -148,7 +148,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps</xpath>
+			<xpath>/Defs/ThingDef[defName = "Table3x3c"]/comps</xpath>
 			<value>
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
