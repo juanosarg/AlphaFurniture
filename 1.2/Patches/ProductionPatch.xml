@@ -159,12 +159,65 @@
 			</value>
 		</match>
 	</Operation>
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
-			<value>
-				<comps>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>High Tech Laboratory Facilities (Continued)</li>
+		</mods>
+
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Research/ResearchBenchHiTech</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechAlternate</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Research/ResearchBenchHiTech</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechAlternate</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		
+		</match>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Production/ResearchBenchHiTech</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechComputer</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+				<value>
 					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Production/ResearchBenchHiTech</li>
@@ -173,23 +226,13 @@
 							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
 						</randomGraphics>
 					</li>
-				</comps>
-			</value>
+				</value>
+			</match>
 		</nomatch>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
-			<value>
-				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
-					<randomGraphics>
-						<li>Things/Building/Production/ResearchBenchHiTech</li>
-						<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechComputer</li>
-						<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
-						<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
-					</randomGraphics>
-				</li>
-			</value>
-		</match>
 	</Operation>
+
+
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -472,7 +515,7 @@
 			</value>
 		</match>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "FueledStove"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -499,15 +542,15 @@
 					<randomGraphics>
 						<li>Things/Building/Production/TableStoveFueled</li>
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDouble</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDoubleInverted</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDoubleInverted</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
 					</randomGraphics>
 				</li>
 			</value>
 		</match>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -534,15 +577,15 @@
 					<randomGraphics>
 						<li>Things/Building/Production/TableStoveElectric</li>
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDouble</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDoubleInverted</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
-							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDoubleInverted</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
 					</randomGraphics>
 				</li>
 			</value>
 		</match>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -566,15 +609,15 @@
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
 						<li>Things/Building/Production/TableTailorHand</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandCloth</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandCloth</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
 					</randomGraphics>
 				</li>
 			</value>
 		</match>
 	</Operation>
-	
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -598,9 +641,9 @@
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
 						<li>Things/Building/Production/TableTailorElectric</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricBox</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
-							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricBox</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
 					</randomGraphics>
 				</li>
 			</value>
