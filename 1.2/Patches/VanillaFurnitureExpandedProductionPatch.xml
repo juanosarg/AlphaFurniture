@@ -170,6 +170,39 @@
 						</value>
 					</match>
 				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Building/Workbenches/TableTailorLarge</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeBoxes</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeDouble</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargePurple</li>
+										
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Building/Workbenches/TableTailorLarge</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeBoxes</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeDouble</li>
+										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargePurple</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
 			</operations>
 		</match>
 	</Operation>
