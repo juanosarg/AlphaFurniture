@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>ClutterDoors</li>
+			<li>ClutterDoors (Continued)</li>
 		</mods>
 		<match Class="PatchOperationConditional">
 			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
